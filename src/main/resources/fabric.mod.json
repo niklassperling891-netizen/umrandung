@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "spielerumriss",
+  "version": "${version}",
+  "name": "SpielerUmriss",
+  "description": "Schaltet lokal sichtbare Umrisse fuer andere Spieler um.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.spielerumriss.SpielerUmrissClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
